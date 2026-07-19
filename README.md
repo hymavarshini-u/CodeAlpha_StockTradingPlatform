@@ -42,10 +42,11 @@ Run the program:
 ```bash
 java StockTradingPlatform
 ```
-
 ## 📸 Sample Output
 
-```
+```text
+Enter User Name: Hymavarshini
+
 ========== STOCK TRADING PLATFORM ==========
 1. View Market
 2. Buy Stock
@@ -53,6 +54,33 @@ java StockTradingPlatform
 4. View Portfolio
 5. Transaction History
 6. Exit
+
+Enter Choice: 1
+
+========== MARKET ==========
+1. TCS        ₹3500.0
+2. Infosys   ₹1600.0
+3. Reliance  ₹2800.0
+4. HDFC      ₹1700.0
+5. Wipro      ₹550.0
+
+Enter Choice: 2
+Select Stock: 1
+Enter Shares: 5
+
+Stock purchased successfully!
+
+Enter Choice: 4
+
+========== PORTFOLIO ==========
+User: Hymavarshini
+Balance: ₹82500.0
+Portfolio Value: ₹17500.0
+
+Enter Choice: 5
+
+========== TRANSACTION HISTORY ==========
+BUY | TCS | Shares: 5 | Amount: ₹17500.0
 ```
 
 ## 🎯 Learning Outcomes
